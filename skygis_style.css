@@ -5,44 +5,44 @@ body{
 }
 
 /* for the banner at the top */
-#banner{
-    width: 728px;
-    height: 90px;
+.banner{
+    width:60%;
+    height:100px;
     margin:auto;
-    text-align:center;
-    line-height:90px;
+    background-color:#00b3b3;
+    color: white;
 }
-/* for the navigation menu under the banner */
+.bannertxt1 {
+    position: relative;
+    left: 40%;
+    margin:auto;
+    font-family:courier;
+    font-size: 260%;    
+}
+.bannertxt2 {
+    position: relative;
+    left: 39%;
+    margin:auto;
+    font-family:courier;
+    font-size: 150%;    
+}
+/* the left side navigation menu */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow:hidden;
-    background-color: #333
+    width: 200px;
+    background-color: #00b3b3;
 }
-
-li {
-    float: left;
-}
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
 }
-
-li a:hover {
-  background-color: #111
-}
-
-img {
-    float: center;
-}
-
-div {
-    width: 320px;
-    padding: 5px;
-    border: 0px solid gray;
-    margin: 0;
+/* for the main paragraph */
+.pmain {
+    border: 1px solid black;
+    margin: 50px;
+    padding: 25px 50px 25px;    
 }
