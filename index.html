@@ -17,6 +17,7 @@
 	<nav>
 	  <ul>
 		<li><a href="samplemaps.html">Sample Maps</a></li>
+        <li><a href="samplevideos.html">Sample Videos</a></li>
         <li><a href="sampleimages.html">Sample Images</a></li>
         <li><a href="index.html">Home</a></li>
 		<li><a href="about.html">About</a></li>
@@ -25,13 +26,17 @@
 	</nav>
 
 	<section class="paragraph">
-	  <h1>My first map</h1>
-	  <p class="mainp">My first drone map was made June 2017. I had low/no expectations to the outcome but was very interested in how the technology of the drone, the photo 
-	  stitching in DroneDeploy and at the end, importing it to MapInfo Pro would all work together. I used my newly purchased Phantom 3 and a free evaluation subscription to DroneDeploy. I planned the flight over my neighborhood making sure it would complete with one battery. The flight plan was 247 feet of altitude, 65% front and 75% side overlap, 34 mph speed and it covered about 33 acres. When I finally got through the pre-flight checks and pushed the Fly button I felt a twinge of excitement and fear as my drone took flight autonomously. I waited a day after uploading the captured data set to DroneDeploy to receive an email that my map was ready.</p>
-	  <p class="mainp">When I logged in to DroneDeploy I was happy to see a decent resulting map. I emailed myself the completed map as a geo TIFF and imported it into
-	  MapInfo Pro. I added a Bing tile layer under my drone map layer to add some context imagery outside the bounds of the drone map. Finally I put a scale bar
-	  on the map and left like I had something like a completed project. Here is an image of that map.
+	  <h1>A look at three flight planning tools</h1>
+	  <p class="mainp">There are three steps to making a decent drone map. First is capturing the data with the drone. Second is processing the captured images into a workable format. Last is finishing the processed data into a map that displays the spatial data in a meaningful way. In this article I will focus on performing the first step using three free flight planning and execution tools I have tried. </p>
+	  <p class="mainp">The DroneDeploy app from DroneDeploy, PecisionFlight app from PrecisionHawk and Pix4Dcapture app from Pix4D are flight planning and execution tools that are free and available for Android and iOS devices. These apps provide a UI to draw an area for your flight, set parameters of the flight such as altitude and photo overlap etc., and autonomously fly the drone to capture the images for you. Below is a table of features a flight planner might provide indicating which of these features each app includes. I use the iOS version of these apps </p>
+      <p class="mainp">How each presents the fly plan to you is slightly different so I’ll take a little deeper look at these first. 
 	  </p>
+      <h3> DroneDeploy UI</h3>
+      <p class="mainp">What stands out about the DroneDeploy UI is that all settings are available from one screen. The advanced items such as photo overlap, custom camera setting and such are available in the Advanced dropdown. The other two apps require you to move to a settings screen to adjust these items. This leads me to belive for DroneDeploy each flight plan can have a separate set of advanced settings while in the other two apps the advanced settings are applied to all flight plans.</p>
+      <h4> DroneDeploy basic settings</h4>
+      <img src="images/dd_win1.jpg" width="700" height="525" alt="DroneDeploy basic settings">
+     <h4> DroneDeploy advanced settings</h4>
+      <img src="images/dd_win2.jpg" width="700" height="525" alt="DroneDeploy advanced settings">
 	</section>
 
 	<section class="rightsidebar"><strong>Related Links:</strong>
@@ -40,8 +45,6 @@
 	<br>
 	<a href="https://phantompilots.com">Phantom Pilots</a>
 	</section>
-	
-	<!-- </div> -->
 
 </body>
 </html>
