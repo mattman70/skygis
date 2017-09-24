@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+  <meta charset="utf-8">
+  <title>Index</title>
+  <link rel = "stylesheet"
+    type= "text/css"
+    href = "skygis_style.css"/>
+</head>
+
+<body>
+   	<header>
+	   <p class="bannertxt1">Sky-GIS</p>
+	   <p class="bannertxt2">aerial mapping</p>
+	</header>
+	
+	<nav>
+	  <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="samplemaps.html">Sample Maps</a></li>
+        <li><a href="samplevideos.html">Sample Videos</a></li>
+        <li><a href="sampleimages.html">Sample Images</a></li>
+		<li><a href="currentblogpost.html">Blog Post</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	  </ul>
+	</nav>
+
+	<section class="paragraph">
+	  <h1>A look at three flight planning apps</h1>
+	  <p class="mainp">There are three steps to making a decent drone map. First is capturing the data with the drone. Second is processing the captured images into a workable format. Last is finishing the processed data into a map that displays the spatial data in a meaningful way. In this article I will focus on performing the first step using three free flight planning and execution tools I have tried. </p>
+	  <p class="mainp">The DroneDeploy app from DroneDeploy, PecisionFlight app from PrecisionHawk and Pix4DCapture app from Pix4D are flight planning and execution tools that are free and available for Android and iOS devices. These apps provide a UI to draw an area for your flight, set parameters of the flight such as altitude, camera settings, speed and photo overlap and then autonomously fly the drone for you to capture the images.
+      <p class="mainp">How each presents the flight plan and how you can edit it is slightly different so I’ll take a little deeper look at this aspect first. 
+	  </p>
+      <h3>DroneDeploy UI</h3>
+      <p class="mainp">Notice the details for calculated flight time, acreage, map resolution and battery required for the mission. In addition to the ability to edit all aspects of the flight plan, I consider the display of these pieces of information the baseline of how a flight planner should work. What stands out about the DroneDeploy UI is that all settings are available from one screen. The advanced items such as photo overlap, custom camera setting and such are available in the Advanced dropdown(see 2nd image below). </p>
+      <h4> DroneDeploy basic settings</h4>
+      <img src="images/dd_win1.jpg" width="700" height="525" alt="DroneDeploy basic settings">
+      <h4> DroneDeploy advanced settings</h4>
+      <p class="mainp">Notice the Advanced settings can be toggled into display without having to the leave the app's main screen.</p>
+      <img src="images/dd_win2.jpg" width="700" height="525" alt="DroneDeploy advanced settings">
+      
+      <!-- Precision Flight -->
+      <h3>PrecisionFlight UI</h3>
+      <p class="mainp">The PrecisionFlight UI is the most simple of the three I've tried. The upside of that is you can get the basics of the flight plan done without clutter in the way or having to figure out any feature that isn't essential to the mission. The downside is that if you want to customize the flight more you have to move to another screen. On the flight plan screen you draw the area of the flight, set the name, altitude and flight direction using the rotate feature. You can see the calculated acreage, flight time and resolution of the images you'll get. It doesn't include a calculation for batteries needed for the flight but with flight time displayed you really are not missing much as you should be well aware of your drone's battery flight time. The biggest negative is that it lacks an indicator for the starting way point. This means you could lauch from a position far away from the starting point and eat up battery time before any images get captured. In a very large flight this could be significant.</p>
+      <img src="images/ph_win1a.jpg" width="700" height="525" alt="PrecisionFlight basic settings">
+      <p class="mainp">The PrecisionFlight advanced settings are available from the Settings menu option on the intial app page. Having these options in the settings page separate of the flight plan leads me to believe they are applied to all plans and in order to customize them for one mission you have to edit them at flight time if you want to change them from your saved defaults.</p>
+      <h4>PrecisionFlight advanced settings</h4>
+      <img src="images/ph_win2.jpg" width="700" height="525" alt="PrecisionFlight basic settings">
+    
+      <!-- pix 4 d capture-->
+      <h3>Pix4dCapture UI</h3>
+      <p class="mainp">The Pix4d Capture UI comes in somewhere between the flexibility and usability of DroneDeploy and the bare basics feel of PrecisionFlight. It includes a starting and ending waypoint indicator, but unlike DroneDeploy, it doesn't allow you to set the start point without rotating the entire flight path. Also it requires you to move to another screen to set anything about the flight except the area and the altitude. The biggest negative I found with this app is a lack of a way to name your flight plans. It simply increments them up calling each Project 00001, Project 00002 and so on. Another oddity is how this app displays the size of the area. Notice in the lower middle the 2086 x 1683 ft. I had to find the calculation for sq ft to acres on the internet to know what this app was calculating as the mission acreage.</p>
+      <h4>Pix4dCapture basic settings</h4>
+      <img src="images/p4_win1.jpg" width="700" height="525" alt="PrecisionFlight basic settings">      
+      <p class="mainp">Like with PrecisionFlight, the Pix4d Capture advanced settings are on a separate screen from the flight plan. Notice you don't set a precise speed but move a slider from slow to fast. Also the camera settings are limited to White balance Auto/Sunny/Cloudy. In DroneDeploy and Precision flight you can choose to use custom camera settings established in the DJI Go app if you are flying a DJI drone.</p>
+      <h4>Pix4dCapture advanced settings</h4>
+      <img src="images/p4_win2.jpg" width="700" height="525" alt="PrecisionFlight basic settings">
+      
+      <h3>Conclusion</h3>
+      <p class="mainp">For beginner pilots I think any of these three apps provide a sufficient experience with getting a mission planned. Based on overall user experience, if I may put on my software engineer hat for a moment, I choose DroneDeploy. Pix4dCapture gets an extra negative mention for lack of ability to name a mission. Please check out my next article where I will put these three apps side by side as I delve into how they perform when actually executing the mission.</p>
+	</section>
+
+	<section class="rightsidebar"><strong>Related Links:</strong>
+	<br>
+	<a href="https://www.nysgis.net/">NY GIS Association</a>
+	<br>
+	<a href="https://phantompilots.com">Phantom Pilots</a>
+    <br>
+	<a href="https://www.dronedeploy.com">DroneDeploy</a>
+    <br>
+	<a href="http://www.pitneybowes.com/us/location-intelligence/geographic-information-systems/mapinfo-pro.html">MapInfo Professional</a>
+    <br>
+	<a href="http://www.precisionhawk.com/precisionmapper">Precisionhawk</a>
+    <br>
+	<a href="http://www.qgis.org/">QGIS</a>
+    <br>
+	<a href="http://www.dji.com">DJI</a>
+    </section>
+
+</body>
+</html>
